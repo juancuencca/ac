@@ -2,8 +2,8 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="px-40 py-5 bg-gray-950 text-white flex justify-between items-center">
-        <p className="italic">&copy; <span className="text-sm">A&C Soluciones Informáticas. Todos los derechos reservados</span></p>
+    <footer className="px-10 sm:px-20 md:px-40 py-5 bg-gray-950 text-white flex gap-6 flex-col-reverse md:flex-row justify-between items-center">
+        <p className="italic">&copy; <span className="text-sm">A&C Soluciones. Todos los derechos reservados.</span></p>
         <div className="flex gap-x-6">
             <a href="https://www.instagram.com/a_c_informatica/" target="_blank">
                 <FaInstagram className="w-7 h-7" />
