@@ -19,6 +19,40 @@ function App() {
                 <img src={ilustracion1} alt="Ilustracion AC" width={350} height={350} className='rounded-sm'/>
             </div>
           </section>
+          <section id="servicios" className="px-40 py-20 bg-slate-100" >
+              <h1 className='text-5xl font-bold text-gray-900 leading-tight tracking-normal'>Servicios</h1>
+              <div className='grid grid-cols-3 gap-x-4 mt-10'>
+                <div>
+                  {/* <h2 className='text-2xl text-gray-900 font-bold'>Trabajos universitarios</h2> */}
+                  <div className='flex gap-x-4'>
+                    <div className='w-1 h-8 bg-red-600'></div>
+                    <h2 className='text-2xl text-gray-900 font-bold'>Trabajos Universitarios</h2>
+                  </div>
+                  <p className='text-base text-gray-600 mt-3'>
+                    Realizamos trabajos académicos como ensayos, monografías, y proyectos de investigación. Además, te ayudamos a crear presentaciones en PowerPoint que capturen la atención de tu audiencia.
+                  </p>
+                </div>
+                <div>
+                  {/* <h2 className='text-2xl text-gray-900 font-bold'>Diseño Gráfico</h2> */}
+                  <div className='flex gap-x-4'>
+                    <div className='w-1 h-8 bg-red-600'></div>
+                    <h2 className='text-2xl text-gray-900 font-bold'>Diseño Gráfico</h2>
+                  </div>
+                  <p className='text-base text-gray-600 mt-3'>
+                    Creamos flyers, currículums profesionales, tarjetas de presentación y más. Nos aseguramos de que cada diseño sea moderno y esté alineado con tus expectativas.
+                  </p>
+                </div>
+                <div>
+                  <div className='flex gap-x-4'>
+                    <div className='w-1 h-8 bg-red-600'></div>
+                    <h2 className='text-2xl text-gray-900 font-bold'>Soporte Técnico</h2>
+                  </div>
+                  <p className='text-base text-gray-600 mt-3'>
+                    Ofrecemos mantenimiento preventivo, limpieza, formateo, instalación de software y paquetes como Office, además de recuperación de archivos perdidos. Tu equipo estará en buenas manos con nosotros.
+                  </p>
+                </div>
+              </div>
+          </section>
         </main>
       </div>
     </>
