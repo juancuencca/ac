@@ -7,6 +7,7 @@ import imagen4 from './assets/imagen4.jpg'
 import imagen5 from './assets/imagen5.jpg'
 import imagen6 from './assets/imagen6.jpg'
 import imagen8 from './assets/imagen8.jpg'
+import { FaWhatsapp } from "react-icons/fa";
 
 function App() {
   return (
@@ -16,12 +17,14 @@ function App() {
         <main>
           <section id="home" className="px-10 sm:px-20 md:px-40 py-10 md:py-20 flex flex-col lg:flex-row justify-between gap-8">            
             <div className='max-w-lg text-center lg:text-left'>
-                <h1 className='text-4xl md:text-5xl font-bold text-gray-950 leading-tight tracking-normal'>A&C Soluciones Informáticas</h1>
+                <h1 className='text-4xl md:text-5xl font-bold text-gray-950 leading-10 tracking-normal'>AC <span className='text-red-600'>Soluciones</span> Informáticas</h1>
                 <p className='text-lg text-gray-600 text-balance mt-6 tracking-wide'>
                   Bienvenidos a AC Soluciones Informáticas, tu aliado para todas tus necesidades tecnológicas. Ofrecemos una amplia gama de servicios que van desde la creación de trabajos universitarios hasta el soporte técnico especializado para tu equipo. Contáctanos para una solución rápida y profesional.
                 </p>
                 <a href="https://wa.me/+595995680264" target="_blank">  
-                  <button className='mt-8 px-5 py-2 border bg-gray-950 text-white w-fit rounded-md text-lg font-semibold hover:bg-white hover:text-gray-950 hover:border-gray-900'>Contactar Ahora</button>
+                  <button className='flex gap-x-2 items-center mt-8 px-5 py-2 border bg-gray-950 text-white w-fit rounded-md text-lg font-semibold hover:bg-white hover:text-gray-950 hover:border-gray-900'>
+                    Contactar Ahora <FaWhatsapp className='w-6 h-6'/>
+                  </button>
                 </a>
             </div>
             <div className='flex justify-center lg:block'>
@@ -35,7 +38,7 @@ function App() {
                   {/* <h2 className='text-2xl text-gray-950 font-bold'>Trabajos universitarios</h2> */}
                   <div className='flex gap-x-4'>
                     <div className='w-1 h-8 bg-red-600'></div>
-                    <h2 className='text-2xl text-gray-950 font-bold'>Trabajos Universitarios</h2>
+                    <h2 className='text-2xl text-gray-950 font-bold'>Trabajos Académicos</h2>
                   </div>
                   <p className='text-base text-gray-600 mt-3'>
                     Realizamos trabajos académicos como ensayos, monografías, proyectos de investigación, presentaciones y más. Además, te ayudamos a crear presentaciones en PowerPoint que capturen la atención de tu audiencia.
