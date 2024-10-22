@@ -22,7 +22,7 @@ function App() {
                   Bienvenidos a AC Soluciones Informáticas, tu aliado para todas tus necesidades tecnológicas. Ofrecemos una amplia gama de servicios que van desde la creación de trabajos universitarios hasta el soporte técnico especializado para tu equipo. Contáctanos para una solución rápida y profesional.
                 </p>
                 <a href="https://wa.me/+595995680264" target="_blank">  
-                  <button className='flex gap-x-2 items-center mt-8 px-5 py-2 border bg-gray-950 text-white w-fit rounded-md text-lg font-semibold hover:bg-white hover:text-gray-950 hover:border-gray-900'>
+                  <button className='flex gap-x-2 items-center mx-auto lg:mx-0 mt-8 px-5 py-2 border bg-gray-950 text-white w-fit rounded-md text-lg font-semibold hover:bg-white hover:text-gray-950 hover:border-gray-900'>
                     Contactar Ahora <FaWhatsapp className='w-6 h-6'/>
                   </button>
                 </a>
